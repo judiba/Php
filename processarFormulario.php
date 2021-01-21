@@ -34,9 +34,9 @@ if($create_base) {
  // insere alguns dados para os exemplos
  mysql_query("
  INSERT INTO perguntas(pergunta, resposta) VALUES
- ('Notebook', '2800'),
- ('Nobreak', '800'),
- ('Roteador Wireless', '180');
+ ('Monitor'),
+ ('Computador'),
+ ('Roteador Wireless',);
  ") or die(mysql_error());
  }
 }
