@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Formulario Teste</title>
+</head>
+<body>
+
+ <h3>Avaliação de Conhecimentos em Desenvolvimento Web.</h3><br>
+
+  <form action="processarFormulario.php" method="GET">
+    
+    <p>Blablabla pergunta 1.... blablabla</p>
+    Opção 1<input type="radio" value="1" name="pergunta1" value="on" /><br />
+    Opção 2<input type="radio" value="2" name="pergunta1" value="on" /><br />
+    Opção 3<input type="radio" value="3" name="pergunta1" /><br />
+    Opção 4<input type="radio" value="4" name="pergunta1" /><br />
+    Opção 5<input type="radio" value="5" name="pergunta1" /><br />
+        <br />
+        <br />
+        <div>
+          <label for="msg">Comentario:</label>
+          <textarea id="msg" rows="10" cols="40" noresize=""></textarea>
+      </div>
+      <div class="button">
+          <button type="submit">Enviar sua mensagem</button>
+      </div>
+   
+
+    <p>Blablabla pergunta 2.... blablabla</p>
+    Opção 1<input type="radio" value="1" name="pergunta2" /><br />
+    Opção 2<input type="radio" value="2" name="pergunta2" /><br />
+    Opção 3<input type="radio" value="3" name="pergunta2" /><br />
+    Opção 4<input type="radio" value="4" name="pergunta2" /><br />
+    Opção 5<input type="radio" value="5" name="pergunta2" /><br />
+
+    <p>Blablabla pergunta 3.... blablabla</p>
+    Opção 1<input type="radio" value="1" name="pergunta3" /><br />
+    Opção 2<input type="radio" value="2" name="pergunta3" /><br />
+    Opção 3<input type="radio" value="3" name="pergunta3" /><br />
+    Opção 4<input type="radio" value="4" name="pergunta3" /><br />
+    Opção 5<input type="radio" value="5" name="pergunta3" /><br />
+
+    <p>Qual etnia é a sua pergunta multipla escolha1...</p>
+    Caucasiano<input type="checkbox" class="checkbox" value="caucasiano" name="escolha1[]" /><br />
+    Amarelo<input type="checkbox" class="checkbox" value="amarelo" name="escolha1[]" /><br />
+    Negro<input type="checkbox" class="checkbox" value="negro" name="escolha1[]" /><br />
+    Indio<input type="checkbox" class="checkbox" value="indio" name="escolha1[]" /><br />
+    Pardo<input type="checkbox" class="checkbox" value="pardo" name="escolha1[]" /><br />
+
+    <p>Qual cidade gostaria de trabalhar pergunta multipla escolha2...</p>
+    <input type="selectbox" class="selectbox" value="sao_paulo" name="escolha2[]" />São Paulo<br />
+    <input type="selectbox" class="selectbox" value="rio_de_janeiro" name="escolha2[]" />Rio de Janeiro<br />
+    <input type="selectbox" class="selectbox" value="curitiba" name="escolha2[]" />Curitiba<br />
+    <input type="selectbox" class="selectbox" value="belo_horizonte" name="escolha2[]" />Belo Horizonte<br />
+    <input type="selectbox" class="selectbox" value="bahia" name="escolha2[]" />Bahia<br />
+
+    <p>Qual modelo de trabalho pergunta multipla escolha3...</p>
+    <input type="selectbox" class="selectbox" value="integral" name="escolha3[]" />Integral<br />
+    <input type="selectbox" class="selectbox" value="parcial" name="escolha3[]" />Parcial<br />
+    <input type="selectbox" class="selectbox" value="remoto" name="escolha3[]" />Remoto<br />
+    <input type="selectbox" class="selectbox" value="finais_de_semana" name="escolha3[]" />Finais de Semana<br />
+    <input type="selectbox" class="selectbox" value="flexivel" name="escolha3[]" />Flexivel<br />
+
+    <div class="col-sm-12">
+      <label><b>Como você ficou sabendo da oportunidade?</b></label>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="Site" name="sabendo[]">
+          <label class="form-check-label" for="defaultCheck1">Site</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="Facebook" name="sabendo[]">
+          <label class="form-check-label" for="defaultCheck1">Fecebook</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="Google" name="sabendo[]">
+          <label class="form-check-label" for="defaultCheck1">Google</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="Jornal" name="sabendo[]">
+          <label class="form-check-label" for="defaultCheck1">Jornal</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="Panfletos" name="sabendo[]">
+          <label class="form-check-label" for="defaultCheck1">Panfleto</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="Imobiliaria" name="sabendo[]">
+          <label class="form-check-label" for="defaultCheck1">Imobiliária</label>
+      </div>
+      <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="Outros" name="sabendo[]">
+          <label class="form-check-label" for="defaultCheck1">Outros</label>
+      </div>
+    
+    <B>Qual a marca de seu monitor?</B><br>
+    <input type=radio name=monitor value="Samsung"> Samsung
+    <input type=radio name=monitor value="LG"> LG
+    <input type=radio name=monitor value="Desconhecido"> Desconhecido
+    <br><br>
+    
+    <B>Qual seu processador?</B><br>
+    <select name=processador>
+    <option value=Pentium>Pentium</option>
+    <option value=AMD>AMD</option>
+    <option value=Celeron>Celeron</option>
+    </select><BR><BR>
+    
+    <B>Livros que deseja comprar?</B><br>
+    Obs: segure "CTRL" para selecionar mais de um.<BR>
+    <select name="livros[]" multiple>
+    <option value="Biblia do PHP 4">Biblia do PHP 4</option>
+    <option value="PHP Professional">PHP Professional</option>
+    <option value="Iniciando em PHP">Iniciando em PHP</option>
+    <option value="Novidades do PHP 5">Novidades do PHP 5</option>
+    <option value="Biblia do MySQL">Biblia do MySQL</option>
+    </select><BR><BR>
+
+ 
+
+    <input type="submit" class="submit" value="Enviar Formulario!" name="" />
+  
+  </form>
+  
+</body>
+</html>
